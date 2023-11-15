@@ -1,0 +1,744 @@
+@charset "UTF-8";
+
+/* html,body,div,span,applet,object,iframe,
+h1 h2,h3,h4,h5,h6,p,blockquote,pre,
+a,abbr,acronym,address,big,cite,code,
+del,dfn,em,img,ins,kbd,q,s,samp,small,
+strike,strong,sub,sup,tt,var,b,u,i,center,
+fieldset,form,label,legend,table,caption,
+tbody,tfoot,thead,tr,th,td,article,aside,
+canvas,details,embed,figure,figcaption,footer,
+header,main,menu,nav,output,ruby,section,summary,
+time,mark,audio,video{
+  margin: 0; padding: 0; border: 0; font-size: 100%;
+} */
+
+/* 
+#myprofile .firstcontainer{
+	border: 1px solid gray;
+	padding-top:100px;
+}
+*/
+
+#myprofile #notice{
+	height: auto;
+}
+#myprofile .tabcontainer{
+	min-height: 600px;
+}
+#myprofile .carddiv{
+	
+	height:auto;
+}
+#myprofile #img-topimgmodify{
+	display: none;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	text-align: center;
+	font-size: 30px;
+	
+}
+
+/* 탭 스토어 부분 너비 */
+#myprofile #storenamediv{
+    width: max-content;
+}
+/* 상단이미지 */
+#myprofile div.row.img{
+	/* margin-bottom: 70px; */
+}
+#myprofile .topimg{
+/* 	border-bottom:1px solid lightgray; */
+	height: 208px;
+}
+#myprofile #my-topimgdiv:hover{
+	opacity: 0.6;
+}
+#myprofile .topimgdiv{
+	height: 158px;
+/* 	background-color: #e6e9eb; */
+	/* padding-top: 70px; */
+}
+#myprofile .topimgdiv img{
+	height:inherit;
+	width: inherit;
+	object-fit: cover;
+}
+#myprofile .topimgdiv:hover #img-topimgmodify{
+	display: block;
+}
+/* #img-topimgmodify{
+	display: none;
+	width: 100px;
+	height: 100px;
+	padding-top: 20px;
+	position: relative;
+    left: 490px;
+    top: 40px;
+	
+} */
+
+/* 팔로워 구독 수 */
+.count{
+	font-size: 13px;
+	font-weight: 600;
+}
+
+/* 상단 이미지 업로드 글씨
+#myprofile #img-topimgmodify{
+	display: none;
+	padding-top: 70px;
+	text-align: center;
+	font-size: 30px;
+	color:#2a2a2a;
+	
+}
+ */
+#myprofile .seconddiv{
+	min-height: 160px;
+
+	/* padding-top: 20px; */
+	
+}
+#myprofile .thriddiv{
+	margin-top: 10px;
+}
+
+/* 프로필 이미지 */
+
+#myprofile .profile{
+	width: 120px;
+	height: 120px;
+	/* background-color: #edeff0; */
+	/* border: 4px solid #edeff0; */
+	border-radius: 50%;
+	position: relative;
+	left: 28px;
+	top: -40px;
+	justify-content: center;
+	overflow: hidden;	
+}
+/*
+#myprofile #profile{
+	background-image: url("../imags/사람실루엣")
+}
+*/
+
+#myprofile #Img{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	
+}
+
+#myprofile .nickname{
+/* 	border: 1px solid lightgray; */
+	height: 40px;
+	padding-top: 3px;
+	min-width: 80px;
+	color: #2a2a2a;
+	font-size: 24px;
+    font-weight: 700;
+    
+    
+}
+#myprofile a{
+	color:inherit;
+}
+#myprofile #buttonright{
+	display: inline-block;
+/* 	border: 1px solid lightgray; */
+	border-radius: 5px;
+	min-width: 120px;
+	width: auto;
+    height: 44px;
+	padding-top: 9px;
+	text-align: center;
+/* 	padding-right: 4px;
+	padding-left: 4px; */
+	background-color: #e4e4eb;
+	float: right;
+	margin-left: 10px;
+}
+#myprofile .offbtn{
+	display: inline-block;
+	border-radius: 5px;
+	min-width: 120px;
+	width: auto;
+    height: 44px;
+	padding-top: 9px;
+	text-align: center;
+	float: right;
+	margin-left: 10px;
+	background-color: #586579;
+	color: white;
+}
+
+/* 구독버튼 지폐 아이콘 */
+#myprofile #buttonright .fa-money {
+	margin-right: 5px;
+	color: #586579;
+}
+#myprofile #buttonright:hover .fa-money {
+	color: #fff;
+}
+
+#myprofile .offbtn:hover{
+	color:black;
+	background-color: #e4e4eb;
+}
+
+#myprofile .longtext{
+	padding-right: 9px;
+	padding-left: 9px;
+}
+
+#myprofile #buttonright:hover{
+	color: white;
+	background-color: #586579;
+}
+.fakerow{
+	height:15px;
+}
+.addressdiv{
+	color: #2a2a2a;
+	height: 30px;
+	font-size: 17px;
+	padding-top: 3px;
+}
+.addressdiv > a{
+	text-decoration: none;
+}
+
+#myprofile #feed{
+	background-color: #f2f2f6;
+	min-height: 600px;
+	height: auto;
+}
+
+/* 프로필 수정 이미지 */
+#myprofile #my-profileimg:hover{
+	opacity: 0.6;
+}
+#myprofile #profile{
+	background: #fff;
+	border: none;
+	border-radius: 50%;
+	
+} 
+#myprofile .profileimgmodify{
+	width: 120px;
+	height: 120px;
+
+	/* border-radius: 50%; */
+
+ 	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#myprofile #profileimgmodify{
+	width: 120px;
+	height: 120px;
+
+	border-radius: 50%;
+
+ 	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#myprofile .navli{
+	text-align: center;
+	padding-top: 7px;
+	width: 110px;
+	height: 40px;
+	font-size: 20px;
+	font-weight: 700;
+	margin-right: 20px;
+	/* border: 1px solid lightgray; */
+}
+
+#myprofile .tab-content{
+	height: auto;
+}
+
+/* 이미지 업로드 */
+#myprofile .image-upload {
+	/* margin-top: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    position: relative;
+    z-index: 2;
+    
+    top: 40px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#myprofile .button {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+#myprofile label {
+    cursor: pointer;
+    /* font-size: 1em; */
+    /* font-size: 30px; */
+	font-weight: 600;
+    padding: 10px;
+}
+
+#myprofile #chooseFile {
+    visibility: hidden;
+  
+}
+
+#myprofile .fileContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#myprofile .fileInput {
+    display: flex;
+    align-items: center;
+    border-bottom: solid 2px #000;
+    /* width: 60%; */
+    width: 100%;   
+    height: 30px;
+}
+
+#myprofile #fileName {
+    margin-left: 5px;
+}
+
+#myprofile .buttonContainer {
+    /* width: 15%; */
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    /* background-color: black; */
+    background-color: #e4e4eb;
+    color: #2a2a2a;
+   /*  border-radius: 30px; */
+    border-radius: 10px;
+    font-size: 0.8em;
+
+    cursor: pointer;
+}
+#myprofile .buttonContainer:hover{
+	background-color: #586579;
+	color: #fff;
+}
+#myprofile .image-show {
+    /*z-index: -1;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 1px;
+    width: 100%;
+    height: 100%;
+}
+
+#myprofile .Img {
+    position: absolute;
+}
+
+#myprofile #li {
+	width: max-content;
+	margin-bottom: 13px;
+	min-width:100px;
+}
+
+#myprofile #shop__selector{
+	border: none;
+	margin-top: 15px;
+}
+
+#myprofile .line{
+	display: inline-block;
+}
+#myprofile .studioimgdiv{
+	margin: 2px;
+}
+#myprofile #studioimg{	
+	max-width: 100%;
+	height: auto;
+	margin-right: 2px;
+	object-fit:cover;
+}
+
+/* 카드 글씨 라인 줄이기 */
+#myprofile .card-description{
+	display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical; 
+  overflow: hidden;
+}
+
+/* 카드 더보기 추가 */
+#myprofile .card-content__more-btn {
+  appearance: none;
+  border: 1px solid #e0e0e0;
+  padding-top:3px;
+  border-radius: 0.25em;
+  cursor: pointer;
+  margin-top: 1rem;
+  height: 30px;
+  width: 80px;
+  text-align: center;
+  color: #b3b4b5;
+  
+}
+
+#myprofile .card-content__more-btn::before {
+  content: '더보기';
+}
+
+#myprofile .card-content__more-btn:checked::before {
+  content: '닫기';
+}
+
+#myprofile .card-description:has(+ .card-content__more-btn:checked) {
+  -webkit-line-clamp:unset
+}
+
+/* 모달 스타일링을 위한 CSS 코드 */
+#myprofile #modal {
+  display: none;
+  position: absolute;
+  z-index: 9999;
+  width: 100%;
+  height: 540px;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5); 
+  border: 1px solid lightgray;
+
+  padding-top: 30px;
+}
+
+#myprofile .mcontent {
+  text-align:center;
+  background-color: #fefefe;
+
+  margin: auto;
+  padding: 5px;
+
+  border: 1px solid #888;
+  border-radius: 20px;
+  max-width: 500px;
+  width:auto;
+  /* height: 460px; */
+  height: 250px;
+  position: relative;
+  /* top:10px; */
+  left:6.3px;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 30px;
+}
+
+#myprofile .modalclose {
+  color: #aaa;
+  float: right;
+  margin-right: 5px;
+  font-size: 28px;
+  font-weight: bold;
+  position: relative;
+  z-index: 999;
+}
+
+#myprofile .modalclose:hover,
+.modalclose:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#myprofile .modal-content form{
+	text-align: center;
+}
+
+
+
+#myprofile .image-box {
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	display: block;
+	margin: 10px auto;
+}
+#myprofile .upload-btn {
+	width: 90px;
+	height: 10px;
+	display: inline-block;
+	cursor: pointer;
+}
+#myprofile input[type=file] {
+	display: none;
+}
+
+#myprofile .writenew {
+	width: 100px;
+	height: 40px;
+	border-radius: 5px;
+	background-color: #e4e4eb;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#myprofile .writenew:hover {
+	background-color:  #586579;
+	color:white;
+}
+
+#myprofile .writenew1 {
+	width: 100px;
+	height: 40px;
+	border-radius: 5px;
+	background-color: #e4e4eb;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#myprofile .writenew1:hover {
+	background-color:  #586579;
+	color:white;
+}
+
+#myprofile #noticemanage {
+	float: right; 
+	width: 110px;
+	height: 50px;
+	border: 1px solid lightgray;
+	border-radius: 10px;
+	text-align: center;
+	padding-top: 12px;
+	float: right;
+}
+
+#myprofile .writenew:hover {
+	background-color: #586579;
+	color: white;
+}
+
+#myprofile .fcontent{
+  text-align:center;
+  background-color:#535453; 
+  margin: auto;
+  padding: 5px;
+
+  width: 280px;
+  
+  height: 80px;
+  position: relative;
+  top:200px;
+  left:50px;
+	
+}
+
+
+/* 팔로우 구독 취소 모달창*/
+#myprofile .minimodal{
+	width: 400px;
+	height: 300px;
+}
+/* 구독취소 모달 */
+#myprofile .modal-header, #myprofile .modal-footer{
+	border: none;
+
+}
+
+
+#myprofile .minicontent{
+	text-align: center;
+	width: 300px;
+	height: 250px;
+}
+#myprofile .cancel{
+	color: white;
+	background-color: #e97d7d;
+}
+
+/* 멤버십 모달 */
+#myprofile .modal-dialog .modal-content{
+	padding: 15px;
+}
+
+#myprofile .membershipSub{
+	text-align: center;
+	font-weight: 900;
+}
+#myprofile .Subdiv{
+	text-align: center;
+	height: flex;
+	border: 1px solid #b8b8c4;
+	margin: 4px;
+	margin-bottom: 10px;
+	padding: 13px;
+	border-radius: 3px;
+}
+#myprofile .Subjoin{
+	height: 46px;
+	margin: 4px;
+	background-color: #e4e4eb;
+	border: none;
+	border-radius: 3px;
+	padding-top:12px;
+}
+#myprofile .Subjoin:hover {
+	background-color: #586579;
+	border: none;
+}
+
+#myprofile .Membershipdiv{
+/* 	border-top-left-radius: 24px;
+    border-top-right-radius: 24px; */
+    border-radius: 5px;
+}
+#myprofile .subjoin{
+	border:0;
+	background-color: #e4e4eb;
+	font-weight: 600;
+}
+#myprofile .Subjoin:hover .subjoin {
+	background-color: #586579;
+	color: white;
+}
+#myprofile .subjoin:hover {
+	border:0;
+}
+#myprofile .s{
+	text-align: left;
+}
+
+#myprofile .s1 {
+	margin-bottom: 5px;
+}
+
+#myprofile .s2 {
+	font-size: 20px;
+}
+
+#myprofile .s3{
+	border-top: 1px solid #f2f2f6;
+	margin-top: 15px;
+	padding-top: 15px;
+}
+#myprofile p.desc {
+	color: #2a2a2a;
+	margin-bottom: 15px;
+}
+#myprofile .uploadbtn{
+	position:relative;
+    bottom: -90px;
+}
+#myprofile #uploadbtn{
+	/* position:relative; */
+	/* top: 270px; */
+	/* width:400px; */
+	border-radius: 5px;
+	
+	width: 90%;
+    height: 35px;
+    background-color: #e4e4eb;
+	border: none;
+	font-weight: 600;
+}
+#myprofile #uploadbtn:hover{
+	background-color: #586579;
+	color: #fff;
+}
+
+/* 포스트부분 */
+#myprofile #feed-insert-btn {
+	background: #dce0e3;
+}
+#myprofile #feed-insert-btn:hover {
+	background: #b2bfc2;
+}
+#myprofile .feed-listtop {
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: flex-end; 
+}
+@media (min-width:992px){
+	#myprofile .feed-listtop {
+		padding: 0 45px;
+	}	
+}
+@media (max-width:991px){
+	#myprofile .feed-listtop {
+		padding: 0 35px;
+	}	
+}
+@media (max-width: 767px) {	
+	#myprofile .feed-listtop {
+		padding: 0 30px;
+	}
+}
+@media (max-width:575px){
+	#myprofile .feed-listtop {
+		padding: 0 20px;
+	}
+}
+
+#myprofile #co-main{
+	margin-top: 0;
+}
+@media (min-width:992px){
+	#myprofile #co-main{
+		padding: 0 30px 30px;
+	}	
+}
+@media (max-width:991px){
+	#myprofile #co-main{
+		padding: 0 20px 20px;
+	}	
+}
+@media (max-width: 767px) {	
+	#myprofile #co-main{
+		padding: 0 15px 20px;
+	}
+}
+@media (max-width:575px){
+	#myprofile #co-main{
+		padding: 0 5px 10px;
+	}
+}
+
+
+#myprofile #co-main .post{
+	width: inherit;
+}
+#myprofile .author{
+	padding: 6px;
+	font-size: 20px;
+}
+#myprofile .fade:not(.show){
+	opacity: 0;
+	display: none;
+}
+
+
+
+/*  페이징 버튼  */
+
+#myprofile .pagination ul li a:hover,
+#myprofile .pagination ul li.active a {
+    color: #e97d7d;
+}

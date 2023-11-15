@@ -1,0 +1,194 @@
+@charset "UTF-8";
+
+html, body, div, span, applet, object, 
+iframe, h1, h2, h3, h4, h5, h6, p, blockquote, 
+pre, a, abbr, acronym, address, big, cite, 
+code, del, dfn, em, font, img, ins, kbd, q, s, samp, 
+small, strike, strong, sub, sup, tt, var, b, 
+u, i, center, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside,
+canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, nav, output, ruby,
+section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cutive&display=swap');
+
+body, html {
+  height: 100vh;
+  width: 100vw;
+}
+
+a{
+	text-decoration: none;
+}
+
+body {
+  background: white;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  font-family: "Cutive", sans-serif;
+  color: #2d2d2d;
+}
+
+::-moz-selection {
+  background: rgba(170, 170, 170, 0.3);
+}
+
+::selection {
+  background: rgba(170, 170, 170, 0.3);
+}
+
+.heading {
+  font-size: 6em;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.heading > div {
+  overflow: hidden;
+  margin-left: 80px;
+  height: auto;
+}
+.heading > div:nth-child(1){
+	margin-top: 80px;	
+}
+#div4{
+	margin-top: 105px;
+}
+.heading > div > p {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  white-space: nowrap;
+  margin: 0;
+  line-height: 127%;
+}
+
+.green {
+   color:#586579;
+    font-family: "Cutive", sans-serif;
+}
+
+
+div.heading > div {
+  -webkit-animation-delay: 0;
+          animation-delay: 0;
+}
+div.heading > div:nth-child(2) > p {
+  -webkit-animation-delay: 0.05s;
+          animation-delay: 0.05s;
+}
+
+div.heading > div {
+  -webkit-animation-delay: 0;
+          animation-delay: 0;
+}
+div.heading > div:nth-child(3) > p {
+  -webkit-animation-delay: 0.075s;
+          animation-delay: 0.075s;
+}
+
+.slide-up {
+  -webkit-animation: slide-up 1s cubic-bezier(0.65, 0, 0.35, 1) both;
+          animation: slide-up 1s cubic-bezier(0.65, 0, 0.35, 1) both;
+}
+
+@-webkit-keyframes slide-up {
+  0% {
+    transform: translateY(100px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-up {
+  0% {
+    transform: translateY(100px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+
+<!-- ---------------- -->
+html {
+    overflow: hidden;
+}
+
+.section {
+    width: 100%;
+    height: 100%;
+    position: relative;
+      margin: 0;
+}
+
+#section1 {
+    background-color: white;
+}
+
+
+* {
+  box-sizing: border-box;
+  &::before,
+  &::after {
+    box-sizing: border-box;
+  }
+}
+
+a {
+  position: relative;
+  display: inline-block;
+  font-size: 1em;
+  color: #e5e4e2;
+  font-weight: 800;
+  text-decoration: none;
+  overflow: hidden;
+  transition: clip-path 300ms ease-in-out;
+  &:hover::before {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  &::before {
+    position: absolute;
+    content: attr(data-content);
+    color: #000000;
+    text-decoration: none;
+    clip-path: polygon(0 0, 0 0, 0% 100%, 0 100%);
+    transition: clip-path 300ms ease-in-out;
+  }
+}
+.tags {
+  position: relative;
+  display: inline-block;
+  font-size: 1em;
+  color:#e5e4e2;
+  
+  font-weight: 800;
+  text-decoration: none;
+  overflow: hidden;
+  transition: clip-path 300ms ease-in-out;
+  &:hover::before {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  &::before {
+    position: absolute;
+    content: attr(data-content);
+    color:  #f2f2f6;
+    text-decoration: none;
+    clip-path: polygon(0 0, 0 0, 0% 100%, 0 100%);
+    transition: clip-path 300ms ease-in-out;
+  }
+}
