@@ -1,8 +1,6 @@
 # Trackers
 
-<br/><br/>
-
-
+<br/>
 ## 기획 의도
 ***
 
@@ -22,8 +20,6 @@
 
 
 <br/><br/> 
-
-
 ## 개발 목표
 ***
 
@@ -42,17 +38,8 @@
 
 &#x20;  본 프로젝트가 "불렛저널 사용자들"이라는 다소 한정적인 고객층을 대상으로 하고 있는 것은 사실입니다. 그러나 그 안에서 발생하는 요구사항들을 최대한 만족하는, 마니아층을 겨냥한 프로젝트라고 할 수 있습니다.
 
-<br/><br/>  
-
-
-
-## API Docs
-***
-
-* https://teambullet.gitbook.io/api-docs/
 
 <br/><br/>
-
 ## Language & Tools
 ***
 
@@ -66,9 +53,8 @@
 * I'mport API
 * Google Drive API
 
+
 <br/><br/>
-
-
 ## 주요 기능
 ***
 ### 커뮤니티
@@ -106,9 +92,14 @@
 
 * 스토어 개설 혹은 스토어 관리 기능
 
+
+<br/><br/>  
+## API Docs
+***
+
+* https://teambullet.gitbook.io/api-docs/
+
 <br/><br/> 
-
-
 ***
 
 ### shop template
