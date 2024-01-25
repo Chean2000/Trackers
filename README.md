@@ -1,6 +1,7 @@
 # Trackers
 
 
+
 ## 기획 의도
 ***
 
@@ -42,10 +43,14 @@
 
 
 
+
+
 ## API Docs
 ***
 
 * https://teambullet.gitbook.io/api-docs/
+
+
 
 
 ## Language & Tools
@@ -60,6 +65,8 @@
 * JavaScript
 * I'mport API
 * Google Drive API
+
+
 
 
 
@@ -99,6 +106,8 @@
 &#x20;    **2. 본인의 프로필에 방문할 경우**
 
 * 스토어 개설 혹은 스토어 관리 기능
+
+
 
 
 
